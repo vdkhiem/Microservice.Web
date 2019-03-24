@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Amazon.AspNetCore.Identity.Cognito;
 using Amazon.Extensions.CognitoAuthentication;
@@ -120,7 +121,7 @@ namespace Microservice.Web.Controllers
                 var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false).ConfigureAwait(false);
 
                 if (result.Succeeded)
-                {
+                {   
                     return RedirectToAction("Index", "Home");
                 }
                 else
