@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Web", "Microservice.Web\Microservice.Web.csproj", "{A92FAEA7-E4DA-46F1-BD20-510B66457A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Web", "Microservice.Web\Microservice.Web.csproj", "{A92FAEA7-E4DA-46F1-BD20-510B66457A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.WebApi", "Microservice.WebApi\Microservice.WebApi.csproj", "{AC139715-2BE7-4F8D-9092-02283526D831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.WebAPI.Model", "Microservice.WebAPI.Model\Microservice.WebAPI.Model.csproj", "{872E9EDC-F367-41BA-90CB-367D1C5691BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A92FAEA7-E4DA-46F1-BD20-510B66457A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A92FAEA7-E4DA-46F1-BD20-510B66457A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A92FAEA7-E4DA-46F1-BD20-510B66457A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC139715-2BE7-4F8D-9092-02283526D831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC139715-2BE7-4F8D-9092-02283526D831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC139715-2BE7-4F8D-9092-02283526D831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC139715-2BE7-4F8D-9092-02283526D831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872E9EDC-F367-41BA-90CB-367D1C5691BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872E9EDC-F367-41BA-90CB-367D1C5691BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872E9EDC-F367-41BA-90CB-367D1C5691BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872E9EDC-F367-41BA-90CB-367D1C5691BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

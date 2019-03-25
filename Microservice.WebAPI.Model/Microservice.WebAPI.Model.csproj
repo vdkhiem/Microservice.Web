@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Khiem Vo</Authors>
+    <Company>KTT Solutions</Company>
+    <Product>KTT Microservices</Product>
+    <PackageProjectUrl>https://github.com/vdkhiem/Microservice.Web</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
