@@ -10,5 +10,6 @@ namespace Microservice.WebApi.Interfaces
     {
         Task<string> Add(AdvertModel model);
         Task Confirm(ConfirmAdvertModel model);
+        Task<bool> CheckHealthAsync();
     }
 }
